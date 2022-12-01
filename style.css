@@ -55,6 +55,11 @@ a:hover {
   padding: 20px 50px;
 }
 
+#bloc-6 .col-sm-12{
+  position: relative;
+  
+}
+
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
@@ -122,7 +127,6 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -130,8 +134,7 @@ a:hover {
 .d-bloc h3 a,
 .d-bloc h4 a,
 .d-bloc h5 a,
-.d-bloc h6 a,
-.d-bloc p a {
+.d-bloc h6 a {
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -192,8 +195,8 @@ a:hover {
   border-color: rgba(0, 0, 0, 0.3);
 }
 
-.d-bloc .panel,
-.l-bloc {
+.d-bloc .panel
+ {
   color: rgba(0, 0, 0, 0.5);
 }
 
@@ -231,6 +234,10 @@ a:hover {
 .l-bloc h6 a,
 .l-bloc p a {
   color: rgba(0, 0, 0, 0.6);
+}
+
+#bloc-7 p {
+  color: #333333;
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -459,7 +466,6 @@ nav .caret {
   background: rgba(0, 0, 0, 0.3);
 }
 
-
 .btn-rd {
   border-radius: 40px;
 }
@@ -471,6 +477,8 @@ nav .caret {
   box-shadow: 0 1px 3px rgba(0, 0, 1, 0.25),
     inset 0 1px 0 0 rgba(255, 255, 255, 0.15);
 }
+
+
 
 .icon-md {
   font-size: 30px !important;
@@ -503,8 +511,9 @@ nav .caret {
 }
 
 .form-control {
-  border-color: rgba(0, 0, 0, 0.1);
+  border-color: 1px solid #333333;
   box-shadow: none;
+  margin-bottom: 10px;
 }
 
 .scrollToTop {
@@ -637,19 +646,20 @@ a[data-lightbox]:hover img {
   background: none;
 }
 
-h1,
 h2,
 h3,
 h4,
 h5,
 h6,
-p,
-label,
-.btn,
-a {
+label {
   font-family: "helvetica";
   font-weight: 400;
   color: #575757 !important;
+}
+
+#bloc-8, .btn,
+a {
+  color: #333333;
 }
 
 .container {
@@ -675,7 +685,7 @@ a {
 }
 
 p {
-  font-size: 11px;
+  font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -690,7 +700,7 @@ p {
 
 .cta-hero {
   margin-top: 22px;
-  color: #ffffff !important;
+  color: #333333;
   text-transform: uppercase;
   padding: 12px 28px 12px 28px;
   font-size: 16px;
@@ -721,7 +731,7 @@ h3 {
 }
 
 h1 {
-  color: #333333 !important;
+  color: white;
 }
 
 h4 {
@@ -773,17 +783,25 @@ h4 {
 }
 
 .tc-white {
-  color: #f3976c !important;
+  color: white;
+}
+
+h2 .tc-white {
+  color: white;
+}
+
+#bloc-5-cta h2 {
+  position: relative;
 }
 
 .btn-atomic-tangerine {
   background: #f3976c;
-  color: #ffffff !important;
+  color: #333333;
 }
 
 .btn-atomic-tangerine:hover {
   background: #c27956 !important;
-  color: #ffffff !important;
+  color: #333333;
 }
 
 .ltc-white {
@@ -999,6 +1017,7 @@ h4 {
   .btn-dwn {
     display: none;
   }
+
   .voffset {
     margin-top: 5px;
   }
